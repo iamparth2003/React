@@ -5,13 +5,12 @@ import UserContextProvider from './context/UserContextProvider'
 
 function App() {
 
-
-  return (
+    return (
     <UserContextProvider>
   <h1>React with Parth</h1>
-<Login />
-<Profile/>
-    </UserContextProvider>
+  <Login />
+  <Profile/>
+  </UserContextProvider>
   )
 }
 
